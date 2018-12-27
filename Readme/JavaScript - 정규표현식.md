@@ -76,3 +76,33 @@ str.replace(pattern, 'A'); // "Abcdef"
 문자열에서 패턴을 검색해서 이를 변경한 후에 변경된 값을 리턴한다.
 
 <h3>정규표현식 옵션</h3>
+옵션에 따라서 검출되는 데이터가 달라진다.
+<h2>i</h2>
+
+```
+var xi = /a/;
+"Abcde".match(xi); // null
+var oi = /a/i;
+"Abcde".match(oi); // "A"
+```
+
+검사를 원하는 패턴의 요소 뒤에 i를 붙이면. <br>대소문자를 구분하지 않고 검출한다.
+
+<h2>g</h2>
+
+```
+var xg = /a/;
+"abcdea".match(xg); // ["a"]
+var og = /a/g;
+"abcdea".match(og); // ["a", "a"]
+```
+
+패턴에 해당하는 문자열의 모든 요소를 리턴한다.
+
+```
+var ig = /a/ig;
+"AabcdAa".match(ig); // ["A", "a", "A", "a"]
+```
+
+i,g를 같이 사용할 수 있다.
+
