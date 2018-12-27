@@ -1,6 +1,7 @@
 # JavaScript
 
-* 목차
+> 목차
+
 <ul>
   <li><a href="https://www.youtube.com/watch?v=PZIPsKgWJiw&index=1&list=PLuHgQVnccGMA4uSig3hCjl7wTDeyIeZVU">생활코딩 유튜브</a></li>
   <li><a href="https://opentutorials.org/course/743/4650">Opentutorials</a></li>
