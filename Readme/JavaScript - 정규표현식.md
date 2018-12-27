@@ -38,7 +38,7 @@ pattern.exec('abcde'); //["ab"]
 ```
 console.log(pattern.exec('bcdefg')); // null
 ```
-
+찾고자하는 대상안에 a라는 문자가 없기 때문에 null 리턴
 <h2>RegExp.test()</h2>
   
 
