@@ -143,3 +143,6 @@ console.log(result);
 ```
 생활코딩 : <a href="http://opentutorials.org/course/1">http://opentutorials.org/course/1</a> 입니다. 네이버 : <a href="http://naver.com">http://naver.com</a> 입니다. 
 ```
+
+<b>'값으로서의 함수와 콜백'</b> 이라는 부분에서<br>
+위의 것이 어떻게 가능한지 뒤에서 설명을 하니 이해가 되지 않으면 넘어가도 좋다.
