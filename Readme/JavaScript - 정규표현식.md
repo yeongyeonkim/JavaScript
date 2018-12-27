@@ -11,15 +11,17 @@ var pattern = /a/ 정규표현식 리터럴
 var pattern = new RegExp('a') 정규표현식 객체 생성자
 ```
 
-> <b>정규표현식 리터럴</b> :
+<b>> 정규표현식 리터럴</b> :
      /와 /사이에 a가 바로 우리가 찾고자 하는 대상임을 컴퓨터에게 알려준다.
      
   <p></p>
-  
-> <b>정규표현식 객체 생성자</b> :
+  <b>정규표현식 객체 생성자</b> :
      RegularExpression의 약자로, 괄호안에 찾고자 하는 패턴이 a임을 알려준다.
-
-<h2>RegExp.exec()</h2>
+<ul>
+    > <h2>정규표현식 메소드 실행</h2>
+     정규표현식을 컴파일해서 객체를 만들었다면 이제 문자열에서 원하는 문자를 찾아내야 한다.
+     <p></p>
+<h3>RegExp.exec()</h3>
 
 ```
 var pattern = /a/;
@@ -50,6 +52,6 @@ console.log(pattern.test('bcdefg')); // false
 
 - test는 인자 안에 패턴에 해당되는 문자열이 있으면 true, 없으면 false를 리턴한다.
 <p></p>
-
+</ul>
 
   
