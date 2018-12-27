@@ -2,7 +2,7 @@
 
 <ol>
      <li>정규표현식을 이미 알고 있는 개발자에게 정규표현식을 자바스크립트에서는 어떻게 사용하는가를 알려준다.</li>
-     <li>정규표현식 자체에 대한 학습이 필요하다면 <a href="">정규표현식 수업</a>을 공부하자.</li>
+     <li>정규표현식 자체에 대한 학습이 필요하다면 <a href="https://github.com/yeongyeonkim/JavaScript/blob/master/Readme/JavaScript%20-%20%EC%A0%95%EA%B7%9C%ED%91%9C%ED%98%84%EC%8B%9D%20%EA%B0%9C%EB%85%90.md">정규표현식 수업</a>을 공부하자.</li>
 </ol>
 
 <h2>컴파일</h2>
