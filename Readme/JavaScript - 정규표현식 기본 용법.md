@@ -130,6 +130,8 @@ var result = str.replace(pattern, "$2, $1");
 console.log(result); // everyday coding
 ```
 
+이처럼 그룹을 지정하고 그 지정된 그룹을 가져와서 사용할 수 있는 기능을 캡쳐라고 한다.
+
 <h2>치환</h2>
 본문 중의 URL을 링크 html 태그로 교체한다.
 
