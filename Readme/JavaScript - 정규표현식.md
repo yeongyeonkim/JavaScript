@@ -54,6 +54,25 @@ console.log(pattern.test('bcdefg')); // false
 
 > <h2>문자열 메소드 실행</h2>
 
+<h3>String.match()</h3>
+RegExp.exec()와 비슷하다.
 
+```
+var pattern = /a/;
+var str = 'abcdef';
+str.match(pattern); // ["a"]
+var str = 'bcdefg':
+str.match(pattern); // null
+```
 
-  
+<h3>String.replace()</h3>
+
+```
+var pattern = /a/;
+var str = 'abcdef';
+str.replace(pattern, 'A'); // "Abcdef"
+```
+
+문자열에서 패턴을 검색해서 이를 변경한 후에 변경된 값을 리턴한다.
+
+<h3>정규표현식 옵션</h3>
