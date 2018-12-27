@@ -26,19 +26,19 @@ var pattern = /a/;
 console.log(pattern.exec('abcdef')); // ["a"]
 ```
 
-문자열 a를 값으로 하는 <b>배열</b>을 리턴한다.
+- 문자열 a를 값으로 하는 <b>배열</b>을 리턴한다.
 
 ```
 var pattern = /a./;
 pattern.exec('abcde'); //["ab"]
 ```
-정규표현식을 실행시킬때 '.'이라는 것은 어떤 문자이건 간에 하나의 문자이면 되고 앞이 a인 것을 나타낸다.<br>
+- 정규표현식을 실행시킬때 '.'이라는 것은 어떤 문자이건 간에 하나의 문자이면 되고 앞이 a인 것을 나타낸다.<br>
 따라서 ["ab"]를 출력하게 된다.
 
 ```
 console.log(pattern.exec('bcdefg')); // null
 ```
-찾고자하는 대상안에 a라는 문자가 없기 때문에 null 리턴
+- 찾고자하는 대상안에 a라는 문자가 없기 때문에 null 리턴
 <h2>RegExp.test()</h2>
   
 
