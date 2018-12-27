@@ -125,3 +125,21 @@ var str = "coding everyday";
 var result = str.replace(pattern, "$2, $1");
 console.log(result); // everyday coding
 ```
+
+<h2>치환</h2>
+본문 중의 URL을 링크 html 태그로 교체한다.
+
+```
+var urlPattern = /\b(?:https?):\/\/[a-z0-9-+&@#\/%?=~_|!:,.;]*/gim;
+var content = '생활코딩 : http://opentutorials.org/course/1 입니다. 네이버 : http://naver.com 입니다. ';
+var result = content.replace(urlPattern, function(url){
+    return '<a href="'+url+'">'+url+'</a>';
+});
+console.log(result);
+```
+
+결과는 아래와 같다.
+
+```
+생활코딩 : <a href="http://opentutorials.org/course/1">http://opentutorials.org/course/1</a> 입니다. 네이버 : <a href="http://naver.com">http://naver.com</a> 입니다. 
+```
