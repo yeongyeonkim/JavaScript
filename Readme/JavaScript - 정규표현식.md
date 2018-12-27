@@ -22,10 +22,18 @@ var pattern = new RegExp('a') 정규표현식 객체 생성자
 <h2>RegExp.exec()</h2>
 
 ```
+var pattern = /a/;
 console.log(pattern.exec('abcdef')); // ["a"]
 ```
 
 문자열 a를 값으로 하는 <b>배열</b>을 리턴한다.
+
+```
+var pattern = /a./;
+pattern.exec('abcde'); //["ab"]
+```
+정규표현식을 실행시킬때 .이라는 어떤 문자이건 간에 하나의 문자이면 되고 앞이 a인 것을 나타낸다.
+따라서 ["ab"]를 출력하게 된다.
 
 ```
 console.log(pattern.exec('bcdefg')); // null
