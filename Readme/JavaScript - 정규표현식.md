@@ -41,7 +41,7 @@ var pattern = /a/;
 console.log(pattern.exec('bcdefg')); // null
 ```
 - 찾고자하는 대상안에 a라는 문자가 없기 때문에 null 리턴
-<h2>RegExp.test()</h2>
+<h3>RegExp.test()</h3>
 
 ```
 var pattern = /a/;
@@ -75,9 +75,9 @@ str.replace(pattern, 'A'); // "Abcdef"
 
 문자열에서 패턴을 검색해서 이를 변경한 후에 변경된 값을 리턴한다.
 
-<h3>정규표현식 옵션</h3>
+<h2>정규표현식 옵션</h2>
 옵션에 따라서 검출되는 데이터가 달라진다.
-<h2>i</h2>
+<h3>i</h3>
 
 ```
 var xi = /a/;
@@ -88,7 +88,7 @@ var oi = /a/i;
 
 검사를 원하는 패턴의 요소 뒤에 i를 붙이면. <br>대소문자를 구분하지 않고 검출한다.
 
-<h2>g</h2>
+<h3>g</h3>
 
 ```
 var xg = /a/;
@@ -106,3 +106,12 @@ var ig = /a/ig;
 
 i,g를 같이 사용할 수 있다.
 
+<h2>참고</h2>
+- <a href="https://regexr.com/">정규표현식 </a>
+- <a href="https://regexper.com/">정규표현식을 시각화</a>
+
+<h2>캡처</h2>
+
+```
+
+```
