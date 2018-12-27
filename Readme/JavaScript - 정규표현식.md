@@ -40,6 +40,13 @@ console.log(pattern.exec('bcdefg')); // null
 ```
 - 찾고자하는 대상안에 a라는 문자가 없기 때문에 null 리턴
 <h2>RegExp.test()</h2>
-  
+
+```
+var pattern = /a/;
+console.log(pattern.test('abcdef')); // true
+console.log(pattern.test('bcdefg')); // false
+```
+
+- test는 인자 안에 패턴에 해당되는 문자열이 있으면 true, 없으면 false를 리턴한다.
 
   
