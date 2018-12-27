@@ -15,7 +15,7 @@ var pattern = new RegExp('a') 정규표현식 객체 생성자
      /와 /사이에 a가 바로 우리가 찾고자 하는 대상임을 컴퓨터에게 알려준다.<p></p>
      
 <b>정규표현식 객체 생성자</b> :
-     RegularExpression의 약자로, 괄호안에 찾고자 하는 패턴이 a임을 알려준다.<p></p>
+     RegularExpression의 약자로, 괄호안에 찾고자 하는 패턴이 a임을 알려준다.<p></p><br>
      
 
 > <h2>정규표현식 메소드 실행</h2>
@@ -27,7 +27,6 @@ var pattern = new RegExp('a') 정규표현식 객체 생성자
 var pattern = /a/;
 console.log(pattern.exec('abcdef')); // ["a"]
 ```
-
 
 - 문자열 a를 값으로 하는 <b>배열</b>을 리턴한다.
 
@@ -52,11 +51,10 @@ console.log(pattern.test('bcdefg')); // false
 ```
 
 - test는 인자 안에 패턴에 해당되는 문자열이 있으면 true, 없으면 false를 리턴한다.
-<p></p>
+<p></p><br>
 
-<ul>
-<h1>문자열 메소드 실행
-</ul>
+> <h2>문자열 메소드 실행</h2>
+
 
 
   
