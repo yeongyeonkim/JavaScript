@@ -107,11 +107,20 @@ var ig = /a/ig;
 i,g를 같이 사용할 수 있다.
 
 <h2>참고</h2>
-- <a href="https://regexr.com/">정규표현식 </a>
-- <a href="https://regexper.com/">정규표현식을 시각화</a>
+* <a href="https://regexr.com/">정규표현식 </a><br>
+* <a href="https://regexper.com/">정규표현식을 시각화</a>
 
 <h2>캡처</h2>
+괄호안의 패턴은 마치 변수처럼 재사용할 수 있다.
+
+( ) : 괄호는 정규표현식에서 group을 표현한다.
+\w : 문자를 의미(A~Z, a~z, 0~9).
++ 수량자 앞에 있는 문자가 하나 이상인 경우 패턴이 유효해지게 한다.
+\s : 공백.
 
 ```
-
+var pattern = /(\w+)\s(\w+)/;
+var str = "coding everyday";
+var result = str.replace(pattern, "$2, $1");
+console.log(result); // everyday coding
 ```
