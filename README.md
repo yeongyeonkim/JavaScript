@@ -9,7 +9,7 @@
     <li>데이터 타입과 연산자</li>    
     <ul>
       <li><a href="https://github.com/yeongyeonkim/JavaScript/blob/master/Readme/JavaScript%20-%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%ED%83%80%EC%9E%85%EA%B3%BC%20%EC%97%B0%EC%82%B0%EC%9E%901.md">기본 타입</a></li>
-      <li><https://github.com/yeongyeonkim/JavaScript/blob/master/Readme/JavaScript%20-%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%ED%83%80%EC%9E%85%EA%B3%BC%20%EC%97%B0%EC%82%B0%EC%9E%90.md">참조 타입(객체 타입)</a></li>
+      <li><a href="https://github.com/yeongyeonkim/JavaScript/blob/master/Readme/JavaScript%20-%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%ED%83%80%EC%9E%85%EA%B3%BC%20%EC%97%B0%EC%82%B0%EC%9E%90.md">참조 타입(객체 타입)</a></li>
         <li>참조 타입의 </li>
     </ul>
     <li>정규표현식</li>
