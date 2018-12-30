@@ -12,7 +12,7 @@ console.log(colorArr[0]); // red
 console.log(colorArr[2]); // blue
 ```
 
-<h2>length 프로퍼티</h2>
+<h2>Length 프로퍼티</h2>
 
 ```
 var arr = [ ];
@@ -77,3 +77,30 @@ console.log(b); // [1, 2, 3]
 결과는 undefined 였다. 아무래도 괄호안의 인자 개수가 2개 이상인 경우에만 <br>
 위 코드의 var b와 같은 결과를 얻어내는 것 같다.
 
+<h2>유사 배열 객체</h2>
+
+```
+var arr = ['a'];
+var obj = {
+  name : 'c',
+  length : 1
+};
+arr.push('b');
+console.log(arr); // ['a', 'b']
+
+obj.push('b'); // error
+```
+
+유사 배열 객체 obj는 당연히 배열이 아니므로<br>
+표준 배열 메서드 push()를 사용할 수 없다.<br>
+따라서 <b>apply() 메서드</b>를 사용해야 한다.
+
+```
+var obj = { name : 'b', length : 1 };
+Array.prototype.push.apply(obj, ['a']);
+console.log(obj); { '1': 'a', name: 'b', length: 2 }
+```
+
+obj 객체의 '1' 프로퍼티에 'a'값이 추가되고, length는 2로 증가.<br>
+다음에 더 자세히 살펴볼 것 이므로,<br>
+'유사 배열 객체도 배열 메서드를 사용하는 것이 가능하다'정도만 알자.
